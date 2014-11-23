@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1D77561A20FA02007D078A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D77551A20FA02007D078A /* AppDelegate.swift */; };
+		FA1D77581A20FA02007D078A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D77571A20FA02007D078A /* ViewController.swift */; };
+		FA1D775B1A20FA02007D078A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1D77591A20FA02007D078A /* Main.storyboard */; };
+		FA1D775D1A20FA02007D078A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1D775C1A20FA02007D078A /* Images.xcassets */; };
+		FA1D77601A20FA02007D078A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1D775E1A20FA02007D078A /* LaunchScreen.xib */; };
+		FA1D776C1A20FA02007D078A /* MinionWatchNotificationsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D776B1A20FA02007D078A /* MinionWatchNotificationsDemoTests.swift */; };
+		FA1D777C1A20FAE2007D078A /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1D777B1A20FAE2007D078A /* WatchKit.framework */; };
+		FA1D77821A20FAE2007D078A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D77811A20FAE2007D078A /* InterfaceController.swift */; };
+		FA1D77841A20FAE2007D078A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D77831A20FAE2007D078A /* NotificationController.swift */; };
+		FA1D77861A20FAE2007D078A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1D77851A20FAE2007D078A /* Images.xcassets */; };
+		FA1D778A1A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = FA1D77891A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App.app */; };
+		FA1D77911A20FAE2007D078A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1D77901A20FAE2007D078A /* Interface.storyboard */; };
+		FA1D77931A20FAE2007D078A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1D77921A20FAE2007D078A /* Images.xcassets */; };
+		FA1D77961A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA1D77791A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1D77661A20FA02007D078A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1D77481A20FA02007D078A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1D774F1A20FA02007D078A;
+			remoteInfo = MinionWatchNotificationsDemo;
+		};
+		FA1D778B1A20FAE2007D078A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1D77481A20FA02007D078A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1D77881A20FAE2007D078A;
+			remoteInfo = "MinionWatchNotificationsDemo Watch App";
+		};
+		FA1D77941A20FAE2007D078A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1D77481A20FA02007D078A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1D77781A20FAE2007D078A;
+			remoteInfo = "MinionWatchNotificationsDemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA1D779D1A20FAE2007D078A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA1D77961A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA1D77501A20FA02007D078A /* MinionWatchNotificationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinionWatchNotificationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D77541A20FA02007D078A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D77551A20FA02007D078A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1D77571A20FA02007D078A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1D775A1A20FA02007D078A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1D775C1A20FA02007D078A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA1D775F1A20FA02007D078A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA1D77651A20FA02007D078A /* MinionWatchNotificationsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionWatchNotificationsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D776A1A20FA02007D078A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D776B1A20FA02007D078A /* MinionWatchNotificationsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionWatchNotificationsDemoTests.swift; sourceTree = "<group>"; };
+		FA1D77791A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MinionWatchNotificationsDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D777B1A20FAE2007D078A /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		FA1D777F1A20FAE2007D078A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D77801A20FAE2007D078A /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		FA1D77811A20FAE2007D078A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FA1D77831A20FAE2007D078A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FA1D77851A20FAE2007D078A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA1D77891A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MinionWatchNotificationsDemo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D778F1A20FAE2007D078A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D77901A20FAE2007D078A /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		FA1D77921A20FAE2007D078A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1D774D1A20FA02007D078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77621A20FA02007D078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77761A20FAE2007D078A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D777C1A20FAE2007D078A /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1D77471A20FA02007D078A = {
+			isa = PBXGroup;
+			children = (
+				FA1D77521A20FA02007D078A /* MinionWatchNotificationsDemo */,
+				FA1D77681A20FA02007D078A /* MinionWatchNotificationsDemoTests */,
+				FA1D777D1A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension */,
+				FA1D778D1A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App */,
+				FA1D777A1A20FAE2007D078A /* Frameworks */,
+				FA1D77511A20FA02007D078A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1D77511A20FA02007D078A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D77501A20FA02007D078A /* MinionWatchNotificationsDemo.app */,
+				FA1D77651A20FA02007D078A /* MinionWatchNotificationsDemoTests.xctest */,
+				FA1D77791A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension.appex */,
+				FA1D77891A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1D77521A20FA02007D078A /* MinionWatchNotificationsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D77551A20FA02007D078A /* AppDelegate.swift */,
+				FA1D77571A20FA02007D078A /* ViewController.swift */,
+				FA1D77591A20FA02007D078A /* Main.storyboard */,
+				FA1D775C1A20FA02007D078A /* Images.xcassets */,
+				FA1D775E1A20FA02007D078A /* LaunchScreen.xib */,
+				FA1D77531A20FA02007D078A /* Supporting Files */,
+			);
+			path = MinionWatchNotificationsDemo;
+			sourceTree = "<group>";
+		};
+		FA1D77531A20FA02007D078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D77541A20FA02007D078A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1D77681A20FA02007D078A /* MinionWatchNotificationsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D776B1A20FA02007D078A /* MinionWatchNotificationsDemoTests.swift */,
+				FA1D77691A20FA02007D078A /* Supporting Files */,
+			);
+			path = MinionWatchNotificationsDemoTests;
+			sourceTree = "<group>";
+		};
+		FA1D77691A20FA02007D078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D776A1A20FA02007D078A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1D777A1A20FAE2007D078A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D777B1A20FAE2007D078A /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1D777D1A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D77811A20FAE2007D078A /* InterfaceController.swift */,
+				FA1D77831A20FAE2007D078A /* NotificationController.swift */,
+				FA1D77851A20FAE2007D078A /* Images.xcassets */,
+				FA1D777E1A20FAE2007D078A /* Supporting Files */,
+			);
+			path = "MinionWatchNotificationsDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FA1D777E1A20FAE2007D078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D777F1A20FAE2007D078A /* Info.plist */,
+				FA1D77801A20FAE2007D078A /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1D778D1A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D77901A20FAE2007D078A /* Interface.storyboard */,
+				FA1D77921A20FAE2007D078A /* Images.xcassets */,
+				FA1D778E1A20FAE2007D078A /* Supporting Files */,
+			);
+			path = "MinionWatchNotificationsDemo Watch App";
+			sourceTree = "<group>";
+		};
+		FA1D778E1A20FAE2007D078A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D778F1A20FAE2007D078A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1D774F1A20FA02007D078A /* MinionWatchNotificationsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1D776F1A20FA02007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemo" */;
+			buildPhases = (
+				FA1D774C1A20FA02007D078A /* Sources */,
+				FA1D774D1A20FA02007D078A /* Frameworks */,
+				FA1D774E1A20FA02007D078A /* Resources */,
+				FA1D779D1A20FAE2007D078A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1D77951A20FAE2007D078A /* PBXTargetDependency */,
+			);
+			name = MinionWatchNotificationsDemo;
+			productName = MinionWatchNotificationsDemo;
+			productReference = FA1D77501A20FA02007D078A /* MinionWatchNotificationsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1D77641A20FA02007D078A /* MinionWatchNotificationsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1D77721A20FA02007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemoTests" */;
+			buildPhases = (
+				FA1D77611A20FA02007D078A /* Sources */,
+				FA1D77621A20FA02007D078A /* Frameworks */,
+				FA1D77631A20FA02007D078A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1D77671A20FA02007D078A /* PBXTargetDependency */,
+			);
+			name = MinionWatchNotificationsDemoTests;
+			productName = MinionWatchNotificationsDemoTests;
+			productReference = FA1D77651A20FA02007D078A /* MinionWatchNotificationsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA1D77781A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1D779A1A20FAE2007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemo WatchKit Extension" */;
+			buildPhases = (
+				FA1D77751A20FAE2007D078A /* Sources */,
+				FA1D77761A20FAE2007D078A /* Frameworks */,
+				FA1D77771A20FAE2007D078A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1D778C1A20FAE2007D078A /* PBXTargetDependency */,
+			);
+			name = "MinionWatchNotificationsDemo WatchKit Extension";
+			productName = "MinionWatchNotificationsDemo WatchKit Extension";
+			productReference = FA1D77791A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FA1D77881A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1D77971A20FAE2007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemo Watch App" */;
+			buildPhases = (
+				FA1D77871A20FAE2007D078A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MinionWatchNotificationsDemo Watch App";
+			productName = "MinionWatchNotificationsDemo Watch App";
+			productReference = FA1D77891A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1D77481A20FA02007D078A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = NatashaTheRobot;
+				TargetAttributes = {
+					FA1D774F1A20FA02007D078A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FA1D77641A20FA02007D078A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FA1D774F1A20FA02007D078A;
+					};
+					FA1D77781A20FAE2007D078A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FA1D77881A20FAE2007D078A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FA1D774B1A20FA02007D078A /* Build configuration list for PBXProject "MinionWatchNotificationsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1D77471A20FA02007D078A;
+			productRefGroup = FA1D77511A20FA02007D078A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1D774F1A20FA02007D078A /* MinionWatchNotificationsDemo */,
+				FA1D77641A20FA02007D078A /* MinionWatchNotificationsDemoTests */,
+				FA1D77781A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension */,
+				FA1D77881A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1D774E1A20FA02007D078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D775B1A20FA02007D078A /* Main.storyboard in Resources */,
+				FA1D77601A20FA02007D078A /* LaunchScreen.xib in Resources */,
+				FA1D775D1A20FA02007D078A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77631A20FA02007D078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77771A20FAE2007D078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D77861A20FAE2007D078A /* Images.xcassets in Resources */,
+				FA1D778A1A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77871A20FAE2007D078A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D77911A20FAE2007D078A /* Interface.storyboard in Resources */,
+				FA1D77931A20FAE2007D078A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1D774C1A20FA02007D078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D77581A20FA02007D078A /* ViewController.swift in Sources */,
+				FA1D77561A20FA02007D078A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77611A20FA02007D078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D776C1A20FA02007D078A /* MinionWatchNotificationsDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D77751A20FAE2007D078A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D77841A20FAE2007D078A /* NotificationController.swift in Sources */,
+				FA1D77821A20FAE2007D078A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1D77671A20FA02007D078A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1D774F1A20FA02007D078A /* MinionWatchNotificationsDemo */;
+			targetProxy = FA1D77661A20FA02007D078A /* PBXContainerItemProxy */;
+		};
+		FA1D778C1A20FAE2007D078A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1D77881A20FAE2007D078A /* MinionWatchNotificationsDemo Watch App */;
+			targetProxy = FA1D778B1A20FAE2007D078A /* PBXContainerItemProxy */;
+		};
+		FA1D77951A20FAE2007D078A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1D77781A20FAE2007D078A /* MinionWatchNotificationsDemo WatchKit Extension */;
+			targetProxy = FA1D77941A20FAE2007D078A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1D77591A20FA02007D078A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1D775A1A20FA02007D078A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1D775E1A20FA02007D078A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1D775F1A20FA02007D078A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1D776D1A20FA02007D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1D776E1A20FA02007D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1D77701A20FA02007D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MinionWatchNotificationsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1D77711A20FA02007D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MinionWatchNotificationsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA1D77731A20FA02007D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinionWatchNotificationsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinionWatchNotificationsDemo.app/MinionWatchNotificationsDemo";
+			};
+			name = Debug;
+		};
+		FA1D77741A20FA02007D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinionWatchNotificationsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinionWatchNotificationsDemo.app/MinionWatchNotificationsDemo";
+			};
+			name = Release;
+		};
+		FA1D77981A20FAE2007D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = MinionWatchNotificationsDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "MinionWatchNotificationsDemo Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FA1D77991A20FAE2007D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = MinionWatchNotificationsDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "MinionWatchNotificationsDemo Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FA1D779B1A20FAE2007D078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MinionWatchNotificationsDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA1D779C1A20FAE2007D078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MinionWatchNotificationsDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1D774B1A20FA02007D078A /* Build configuration list for PBXProject "MinionWatchNotificationsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D776D1A20FA02007D078A /* Debug */,
+				FA1D776E1A20FA02007D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1D776F1A20FA02007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D77701A20FA02007D078A /* Debug */,
+				FA1D77711A20FA02007D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1D77721A20FA02007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D77731A20FA02007D078A /* Debug */,
+				FA1D77741A20FA02007D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1D77971A20FAE2007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemo Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D77981A20FAE2007D078A /* Debug */,
+				FA1D77991A20FAE2007D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1D779A1A20FAE2007D078A /* Build configuration list for PBXNativeTarget "MinionWatchNotificationsDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D779B1A20FAE2007D078A /* Debug */,
+				FA1D779C1A20FAE2007D078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1D77481A20FA02007D078A /* Project object */;
+}

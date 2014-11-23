@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MinionWatchNotificationsDemo_Watch_App" customModuleProvider="target">
+                    <items>
+                        <timer alignment="left" id="WuX-lt-p1L"/>
+                        <imageView width="1" height="1" alignment="left" contentMode="scaleAspectFill" id="gO9-28-vc7"/>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="minionImage" destination="gO9-28-vc7" id="88M-N1-WeD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="83" y="213.75"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController title="Static Notification Interface Controller" backgroundImage="background" contentMode="scaleAspectFill" id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                        <imageView width="1" alignment="left" image="minions_climbing" contentMode="scaleAspectFit" id="azH-NJ-LHQ"/>
+                        <label alignment="left" text="And they're not going to stop the Mayhem!" numberOfLines="0" id="iDV-IH-thq"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="MinionWatchNotificationsDemo_Watch_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Let's be dynamic!" numberOfLines="0" id="Xgv-AY-KMF"/>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
